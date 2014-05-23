@@ -1,0 +1,78 @@
+<?php
+    $this->css(array(
+        $this->assetModule('css/admin.css'),
+        $this->assetModule('script/system-ui.css', 'system'),
+    ));
+    $this->jQuery();
+    $this->js($this->assetModule('script/system-msg.js', 'system'));
+?>
+<div class="campaign">
+	<ul class="nav nav-pills clearfix">
+		<li<?php if ($status == 1) { ?> class="active"<?php } ?>><a title="<?php _e('Published'); ?>" href="<?php echo $this->url('', array('action' => 'index', 'status' => '1')); ?>"><i class="fa fa-file"></i> <?php _e('Published'); ?></a></li>
+		<li<?php if ($status == 2) { ?> class="active"<?php } ?>><a title="<?php _e('Pending review'); ?>" href="<?php echo $this->url('', array('action' => 'index', 'status' => '2')); ?>"><i class="fa fa-file"></i> <?php _e('Pending review'); ?></a></li>
+		<li<?php if ($status == 3) { ?> class="active"<?php } ?>><a title="<?php _e('Not confirm'); ?>" href="<?php echo $this->url('', array('action' => 'index', 'status' => '3')); ?>"><i class="fa fa-file"></i> <?php _e('Not confirm'); ?></a></li>
+		<li<?php if ($status == 4) { ?> class="active"<?php } ?>><a title="<?php _e('Delete'); ?>" href="<?php echo $this->url('', array('action' => 'index', 'status' => '4')); ?>"><i class="fa fa-file"></i> <?php _e('Delete'); ?></a></li>
+	</ul>
+    <?php if (!empty($list)) { ?>
+	<table id="people-list" class="table table-striped table-bordered table-condensed">
+		<tr>
+			<th><?php _e('ID'); ?></th>
+			<th><?php _e('Image'); ?></th>
+			<th><?php _e('Information'); ?></th>
+			<th><?php _e('Action'); ?></th>
+		</tr>
+		<?php foreach($list as $people) { ?>
+		<?php if($people['status'] == 1) {
+			$labelClass = 'label label-success';	
+		} elseif($people['status'] == 2) {
+			$labelClass = 'label label-warning';	
+		} elseif($people['status'] == 3) {
+			$labelClass = 'label label-default';
+		} elseif($people['status'] == 4) {
+			$labelClass = 'label label-danger';
+		} ?>
+		<tr>
+			<td><span id="label-<?php echo $people['id']; ?>" class="<?php echo $labelClass; ?>"><?php echo $this->escape($people['id']); ?></span></td>
+			<td width="140" class="text-center"><img width="120" src="<?php echo $this->escape($people['thumbUrl']); ?>"></td>
+			<td>
+				<div><?php echo $this->escape($people['first_name']); ?> <?php echo $this->escape($people['last_name']); ?></div>
+				<div><?php echo $this->escape($people['email']); ?></div>
+				<div><?php echo $this->escape($people['mobile']); ?></div>
+			</td>
+			<td>
+				<?php if($people['status'] == 1) { ?>
+				<a class="btn btn-primary" href="<?php echo $this->escape($people['peopleUrl']); ?>"><i class="fa fa-eye"></i> <?php _e('View'); ?></a>
+				<?php } ?>
+				<?php if($people['status'] == 2) { ?>
+				<button id="button-<?php echo $people['id']; ?>" type="button" class="btn btn-success" data-toggle="button" data-link="<?php echo $this->url('', array('action' => 'accept', 'id' => $people['id'], 'status' => '1')); ?>"><i class="fa fa-trash-o"></i> <?php _e('Accept'); ?></button>
+				<?php } ?>
+				<?php if($people['status'] != 4) { ?>
+				<button id="button-<?php echo $people['id']; ?>" type="button" class="btn btn-danger" data-toggle="button" data-link="<?php echo $this->url('', array('action' => 'accept', 'id' => $people['id'], 'status' => '4')); ?>"><i class="fa fa-trash-o"></i> <?php _e('Delete'); ?></button>
+				<?php } ?>
+			</td>
+		</tr>
+		<?php } ?>
+	</table>
+	<div class="paginator"><?php echo $this->paginationControl($paginator, 'Sliding', 'paginator'); ?></div>
+	<p>
+		<span class="label label-success"><?php _e('Published'); ?></span>
+		<span class="label label-warning"><?php _e('Pending review'); ?></span>
+		<span class="label label-default"><?php _e('Not confirm'); ?></span>
+		<span class="label label-danger"><?php _e('Delete'); ?></span>
+	</p>
+	<?php } ?>
+</div>
+<script type="text/javascript" >
+(function($){
+    $("#people-list").on("click","button",function(){
+        systemMessage.wait("<?php _e('In process'); ?>");
+        $.getJSON($(this).attr("data-link")).done(function(result){
+            if(result.ajaxstatus==1){
+                systemMessage.succ(result.message);
+            }else{
+                systemMessage.fail(result.message);
+            }
+        });
+    });
+})(jQuery)
+</script>

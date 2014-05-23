@@ -1,0 +1,415 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: campaign\n"
+"POT-Creation-Date: 2014-05-23 20:08+0330\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _a;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /var/www/html/local/pi/pi-release-2.4.0/usr/module/"
+"campaign\n"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/permission.php:17
+msgid "Global public resource"
+msgstr "دسترسی های عمومی"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/permission.php:27
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/navigation.php:27
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/page.php:17
+msgid "List"
+msgstr "فهرست"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/navigation.php:16
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/page.php:37
+msgid "Register"
+msgstr "ثبت نام"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/page.php:25
+msgid "Index page"
+msgstr "صفحه اصلی"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/page.php:31
+msgid "People"
+msgstr "افراد"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/block.php:15
+msgid "New people"
+msgstr "افراد جدید"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/block.php:16
+msgid "New people list"
+msgstr "فهرست افراد جدید"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/block.php:21
+msgid "Number"
+msgstr "تعداد"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/module.php:16
+msgid "Campaign"
+msgstr "کمپین"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/module.php:17
+msgid "Make campaign."
+msgstr "ساخت کمپین"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:17
+msgid "Admin"
+msgstr "بخش مدیر"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:21
+msgid "View"
+msgstr "نمایش"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:25
+msgid "Image"
+msgstr "تصویر"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:29
+msgid "Social"
+msgstr "شبکه های اجتماعی"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:33
+msgid "Texts"
+msgstr "متن ها"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:41
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:50
+msgid "Perpage"
+msgstr "تعداد در هر صفحه"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:59
+msgid "Image Size"
+msgstr "حجم تصویر"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:67
+msgid "Image path"
+msgstr "مسیر ذخیره تصویر"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:75
+msgid "Image Extension"
+msgstr "پسوند های مجار برای تصویر"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:83
+msgid "Large Image height"
+msgstr "ارتفاع تصویر بزرگ"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:91
+msgid "Large Image width"
+msgstr "عرض تصویر بزرگ"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:99
+msgid "Medium Image height"
+msgstr "ارتفاع تصویر متوسط"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:107
+msgid "Medium Image width"
+msgstr "عرض تصویر متوسط"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:115
+msgid "Thumb Image height"
+msgstr "ارتفاع تصویر بندانگشتی"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:123
+msgid "Thumb Image width"
+msgstr "عرض تصویر بندانگشتی"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:131
+msgid "Use lightbox"
+msgstr "استفاده از لایت باکس"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:139
+msgid "Add Watermark"
+msgstr "اضافه کردن واترمارک به تصویر"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:147
+msgid "Watermark Image"
+msgstr "تصویر واترمارک"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:154
+msgid "Watermark Positio"
+msgstr "موقعیت واترمارک"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:160
+msgid "Top Left"
+msgstr "بالا چپ"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:161
+msgid "Top Right"
+msgstr "بالا راست"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:162
+msgid "Bottom Left"
+msgstr "پایین چپ"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:163
+msgid "Bottom Right"
+msgstr "پایین راست"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:174
+msgid "Show Google Plus"
+msgstr "نمایش گوگل پلاس"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:182
+msgid "Show facebook"
+msgstr "نمایش فیسبوک"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:190
+msgid "Show Twitter"
+msgstr "نمایش تویتر"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:199
+msgid "Module main title"
+msgstr "عنوان اصلی ماژول"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:200
+msgid "Title for main page and all non-title pages"
+msgstr "عنوان برای صفحه اصلی و تمام صفحات بدون عنوان"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:207
+msgid "Module main description"
+msgstr "توضیحات اصلی ماژول"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/config/config.php:215
+msgid "Module main keywords"
+msgstr "کلمات کلیدی اصلی ماژول"
+
+#~ msgid "Manage"
+#~ msgstr "مدیریت"
+
+#~ msgid "Item"
+#~ msgstr "مورد"
+
+#~ msgid "Category"
+#~ msgstr "شاخه"
+
+#~ msgid "Location"
+#~ msgstr "مکان"
+
+#~ msgid "Service"
+#~ msgstr "خدمات"
+
+#~ msgid "Extra"
+#~ msgstr "فیلد اضافی"
+
+#~ msgid "Special"
+#~ msgstr "ویژه"
+
+#~ msgid "Review"
+#~ msgstr "بررسی"
+
+#~ msgid "Attach"
+#~ msgstr "پیوست"
+
+#~ msgid "Score"
+#~ msgstr "امتیاز دهی"
+
+#~ msgid "Package"
+#~ msgstr "بسته ها"
+
+#~ msgid "Orders"
+#~ msgstr "سفارش ها"
+
+#~ msgid "Customer"
+#~ msgstr "مشتری"
+
+#~ msgid "Logs"
+#~ msgstr "گزارش ها"
+
+#~ msgid "Category list"
+#~ msgstr "فهرست شاخه ها"
+
+#~ msgid "Tag list"
+#~ msgstr "فهرست برچسب ها"
+
+#~ msgid "Search"
+#~ msgstr "جستجو"
+
+#~ msgid "Tag"
+#~ msgstr "برچسب"
+
+#~ msgid "Search result"
+#~ msgstr "نتایج جستجو"
+
+#~ msgid "New Items"
+#~ msgstr "موارد جدید"
+
+#~ msgid "Show just recommended"
+#~ msgstr "فقط نمایش موارد پیشنهاد شده"
+
+#~ msgid "Show title"
+#~ msgstr "نمایش عنوان"
+
+#~ msgid "Show location"
+#~ msgstr "نمایش مکان"
+
+#~ msgid "Show phone"
+#~ msgstr "نمایش تلفن"
+
+#~ msgid "Show type activity"
+#~ msgstr "نمایش نوع فعالیت"
+
+#~ msgid "Show More link to module page"
+#~ msgstr "نمایش لینک ادامه به ماژول"
+
+#~ msgid "Set More link to module page"
+#~ msgstr "درج لینک ادامه به ماژول"
+
+#~ msgid "Random Item"
+#~ msgstr "موارد تصادفی"
+
+#~ msgid "Random Item list"
+#~ msgstr "فهرست موارد تصادفی"
+
+#~ msgid "Category list type"
+#~ msgstr "نوع فهرست شاخه ها"
+
+#~ msgid "Simple list"
+#~ msgstr "فهرست ساده"
+
+#~ msgid "Advanced list"
+#~ msgstr "فهرست پیشرفته"
+
+#~ msgid "Item search form"
+#~ msgstr "فرم جستجو"
+
+#~ msgid "Search form type"
+#~ msgstr "نوع فرم جستجو"
+
+#~ msgid "Horizontal"
+#~ msgstr "عمودی"
+
+#~ msgid "Inline"
+#~ msgstr "افقی"
+
+#~ msgid "Form description"
+#~ msgstr "تتوضیحات اصلی فرم جستجو"
+
+#~ msgid "Title feild description"
+#~ msgstr "توضیح فیلد عنوان"
+
+#~ msgid "Title"
+#~ msgstr "عنوان"
+
+#~ msgid "Location feild description"
+#~ msgstr "توضیح فیلد مکان"
+
+#~ msgid "Service feild description"
+#~ msgstr "توضیح فیلد خدمات"
+
+#~ msgid "Guide"
+#~ msgstr "اصناف"
+
+#~ msgid "Introducing guides."
+#~ msgstr "مرجع معرفی اصناف"
+
+#~ msgid "File"
+#~ msgstr "فایل"
+
+#~ msgid "Vote"
+#~ msgstr "رای"
+
+#~ msgid "Favourite"
+#~ msgstr "علاقه مندی"
+
+#~ msgid "Show extra fields"
+#~ msgstr "نمایش فیلد های اضافی"
+
+#~ msgid "Show item attacehed files"
+#~ msgstr "نمایش فایل های پیوست شده"
+
+#~ msgid "Show service"
+#~ msgstr "نمایش خدمات"
+
+#~ msgid "Show incategory items"
+#~ msgstr "نمایش موارد مشابه در این شاخه"
+
+#~ msgid "Show user review"
+#~ msgstr "نمایش بررسی تخصصی کاربران"
+
+#~ msgid "Show submit review"
+#~ msgstr "نمایش دکمه ارسال بررسی"
+
+#~ msgid "Show special"
+#~ msgstr "نمایش موارد ویژه"
+
+#~ msgid "Number of items on special"
+#~ msgstr "تعداد موارد ویژه"
+
+#~ msgid "Show Tags"
+#~ msgstr "نمایش برچسب ها"
+
+#~ msgid "Show category list"
+#~ msgstr "نمایش فهرست شاخه ها"
+
+#~ msgid "Show list title"
+#~ msgstr "نمایش عنوان فهرست ها"
+
+#~ msgid "File Size"
+#~ msgstr "حجم فایل"
+
+#~ msgid "File path"
+#~ msgstr "مسیر ذخیره فایل"
+
+#~ msgid "File Extension"
+#~ msgstr "سوند های مجار برای فایل"
+
+#~ msgid "Use vote system"
+#~ msgstr "استفاده از سیستم رای"
+
+#~ msgid "Use favourite system"
+#~ msgstr "استفاده از سیستم مورد علاقه"
+
+#~ msgid "Show search type"
+#~ msgstr "نمایش نوع جستجوی عنوان"
+
+#~ msgid "Show search category"
+#~ msgstr "نمایش شاخه در جستجو"
+
+#~ msgid "Module search page title"
+#~ msgstr "عنوان صفحه جستجو ماژول"
+
+#~ msgid "Module search page description"
+#~ msgstr "توضیحات صفحه جستجو ماژول"
+
+#~ msgid "Module search page keywords"
+#~ msgstr "کلمات کلیدی صفحه جستجو ماژول"
+
+#~ msgid "Level 1 name"
+#~ msgstr "نام برای طرح ۱"
+
+#~ msgid "Level 1"
+#~ msgstr "سطح ۱"
+
+#~ msgid "Level 2 name"
+#~ msgstr "نام برای طرح ۲"
+
+#~ msgid "Level 2"
+#~ msgstr "سطح ۲"
+
+#~ msgid "Level 3 name"
+#~ msgstr "نام برای طرح ۳"
+
+#~ msgid "Level 3"
+#~ msgstr "سطح ۳"
+
+#~ msgid "Level 4 name"
+#~ msgstr "نام برای طرح ۴"
+
+#~ msgid "Level 4"
+#~ msgstr "سطح ۴"
+
+#~ msgid "Level 5 name"
+#~ msgstr "نام برای طرح ۵"
+
+#~ msgid "Level 5"
+#~ msgstr "سطح ۵"
+
+#~ msgid "Category show type"
+#~ msgstr "نوع نمایش شاخه بندی"

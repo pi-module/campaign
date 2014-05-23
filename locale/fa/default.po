@@ -1,0 +1,1069 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: campaign\n"
+"POT-Creation-Date: 2014-05-23 20:12+0330\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /var/www/html/local/pi/pi-release-2.4.0/usr/module/"
+"campaign\n"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/src/Form/RegisterForm.php:31
+msgid "First name"
+msgstr "نام"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/src/Form/RegisterForm.php:43
+msgid "Last name"
+msgstr "نام خانوادگی"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/src/Form/RegisterForm.php:55
+msgid "Email"
+msgstr "ایمیل"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/src/Form/RegisterForm.php:67
+msgid "Mobile"
+msgstr "تلفن همراه"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/src/Form/RegisterForm.php:89
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/template/admin/list_index.phtml:20
+msgid "Image"
+msgstr "تصویر"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/src/Form/RegisterForm.php:102
+msgid "Submit"
+msgstr "ارسال"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/src/Controller/Admin/ListController.php:90
+#, php-format
+msgid "%s status update successfully"
+msgstr "وضعیت شناسه %s با موفقیت به روز شد"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/src/Controller/Admin/ListController.php:95
+#, php-format
+msgid "Error in update %s"
+msgstr "خطا در به روز کردن %s"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/src/Controller/Admin/ListController.php:101
+msgid "Please select people"
+msgstr "لطفا یک شخص را انتخاب نمایید"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/src/Controller/Front/PeopleController.php:32
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/src/Controller/Front/RegisterController.php:136
+msgid "This person not found."
+msgstr "شخص مورد نظر یافت نشد"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/src/Controller/Front/PeopleController.php:37
+#, php-format
+msgid "%s %s supports us"
+msgstr "%s %s از ما حمایت میکند"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/src/Controller/Front/RegisterController.php:72
+msgid "Problem in upload image. please try again"
+msgstr "خطا در بارگذاری تصویر، لطفا مجددا تلاش نمایید"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/src/Controller/Front/RegisterController.php:98
+msgid "You data saved successfully."
+msgstr "اطلاعات شما با موفقیت ذخیره شد"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/src/Controller/Front/RegisterController.php:101
+msgid "Invalid data, please check and re-submit."
+msgstr "اطلاعات اشتباه ، مججدا تلاش کنید"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/src/Controller/Front/RegisterController.php:105
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/src/Controller/Front/RegisterController.php:115
+msgid "Join to campaign"
+msgstr "پیوستن به کمپین"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/src/Controller/Front/RegisterController.php:140
+msgid "You confirm your information before this time"
+msgstr "شما قبلا اطلاعات خود را تایید کرده اید"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/src/Controller/Front/RegisterController.php:144
+msgid "Your code is not true."
+msgstr "کد تایید شما صحیح نیست"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/template/admin/list_index.phtml:11
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/template/admin/list_index.phtml:58
+msgid "Published"
+msgstr "منتشر شده"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/template/admin/list_index.phtml:12
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/template/admin/list_index.phtml:59
+msgid "Pending review"
+msgstr "در انتظار تایید"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/template/admin/list_index.phtml:13
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/template/admin/list_index.phtml:60
+msgid "Not confirm"
+msgstr "تایید نشده"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/template/admin/list_index.phtml:14
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/template/admin/list_index.phtml:50
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/template/admin/list_index.phtml:61
+msgid "Delete"
+msgstr "حذف"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/template/admin/list_index.phtml:19
+msgid "ID"
+msgstr "شناسه"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/template/admin/list_index.phtml:21
+msgid "Information"
+msgstr "اطلاعات"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/template/admin/list_index.phtml:22
+msgid "Action"
+msgstr "عملکرد"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/template/admin/list_index.phtml:44
+msgid "View"
+msgstr "نمایش"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/template/admin/list_index.phtml:47
+msgid "Accept"
+msgstr "تایید"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/template/admin/list_index.phtml:68
+msgid "In process"
+msgstr "در حال اجرا"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/template/front/campaign_confirm.phtml:3
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/template/front/campaign_finish.phtml:3
+msgid "Congratulations"
+msgstr "تبریک میگوییم"
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/template/front/campaign_confirm.phtml:4
+msgid ""
+"You confrim your email, we will chaek your infromation and publick it on "
+"website , and send other email to you"
+msgstr ""
+"شما حساب کاربری خود را فعال کرده اید. ما اطلاعات شما را بررسی میکنیم و بعد "
+"از تایید در وب سایت منتشر خواهیم کرد و یک ایمیل تایید برای شما ارسال میکنیم."
+
+#: /var/www/html/local/pi/pi-release-2.4.0/usr/module/campaign/template/front/campaign_finish.phtml:4
+msgid ""
+"Your register information save on system and we send confrim email to you, "
+"please check your email and use confrim link"
+msgstr ""
+"اطلاعات ثبت نام شما در سیستم ذخیره شد، ما یک ایمیل تایید برای شما ارسال کرده "
+"ایم ، لطفا ایمیل خود را بررسی نموده و بر روی لینک تایید کلیک نمایید."
+
+#~ msgid "User id"
+#~ msgstr "شناسه کاربر"
+
+#~ msgid ""
+#~ "Each customer need uniune user id, if you want cteate customer "
+#~ "information, you need imput user id for your new customer, if your "
+#~ "customer dont rgister on website and dont have user id, please make new "
+#~ "user first on usrr module"
+#~ msgstr ""
+#~ "هر مشتری به یک شناسه کاربری یکتا نیاز دارد، اگر شما میخواهید اطلاعات "
+#~ "مشتری جدیدی ایجاد کنید، شما باید اطلاعات کاربری را برای این مشتری وارد "
+#~ "کنید، اگر مشتری شما در وب سایت ثبت نام نکرده است و شناسه کاربری ندارد، "
+#~ "لطفا ابتدا یک کاربر جدید بسازید."
+
+#~ msgid "Phone"
+#~ msgstr "تلفن"
+
+#~ msgid "Company"
+#~ msgstr "شرکت"
+
+#~ msgid "Address"
+#~ msgstr "آدرس"
+
+#~ msgid "Country"
+#~ msgstr "کشور"
+
+#~ msgid "City"
+#~ msgstr "شهر"
+
+#~ msgid "Zip code"
+#~ msgstr "کد پستی"
+
+#~ msgid "Status"
+#~ msgstr "وضعیت"
+
+#~ msgid "New customer"
+#~ msgstr "مشتری جدید"
+
+#~ msgid "Edited customer"
+#~ msgstr "مشتری ویرایش شده"
+
+#~ msgid "Package"
+#~ msgstr "بسته"
+
+#~ msgid "Next"
+#~ msgstr "بعدی"
+
+#~ msgid "Title"
+#~ msgstr "عنوان"
+
+#~ msgid "Draft"
+#~ msgstr "پیش نویس"
+
+#~ msgid "Private"
+#~ msgstr "خصوصی"
+
+#~ msgid "Remove image"
+#~ msgstr "حذف تصویر"
+
+#~ msgid "slug"
+#~ msgstr "اسلاگ"
+
+#~ msgid "Type activity"
+#~ msgstr "نوع فعالیت"
+
+#~ msgid "Summary"
+#~ msgstr "خلاصه"
+
+#~ msgid "Description"
+#~ msgstr "توضیحات"
+
+#~ msgid "Edit by user"
+#~ msgstr "ویرایش شده توسط کاربر"
+
+#~ msgid "Category"
+#~ msgstr "شاخه"
+
+#~ msgid "Customer options"
+#~ msgstr "گزینه های مشتری"
+
+#~ msgid "Customer"
+#~ msgstr "مشتری"
+
+#~ msgid "Time start"
+#~ msgstr "زمان آغاز نمایش"
+
+#~ msgid "Set like %s"
+#~ msgstr "مشابه %s تنظیم شود"
+
+#~ msgid "Time end"
+#~ msgstr "زمان پایان نمایش"
+
+#~ msgid "Location options"
+#~ msgstr "گزینه های مکان"
+
+#~ msgid "Longitude"
+#~ msgstr "طول جغرافیایی"
+
+#~ msgid "Latitude"
+#~ msgstr "عرض جغرافیایی"
+
+#~ msgid "Address 1"
+#~ msgstr "آدرس ۱"
+
+#~ msgid "Address 2"
+#~ msgstr "آدرس ۲"
+
+#~ msgid "Area"
+#~ msgstr "ناحیه"
+
+#~ msgid "Phone 1"
+#~ msgstr "تلفن"
+
+#~ msgid "Phone 2"
+#~ msgstr "تلفن سفارش"
+
+#~ msgid "Website"
+#~ msgstr "وب سایت"
+
+#~ msgid "SEO options"
+#~ msgstr "گزینه های سئو"
+
+#~ msgid "SEO Title"
+#~ msgstr "عنوان سئو"
+
+#~ msgid "SEO Keywords"
+#~ msgstr "کلمات کلیدی سئو"
+
+#~ msgid "SEO Description"
+#~ msgstr "توضیحات سئو"
+
+#~ msgid "Tags"
+#~ msgstr "برچسب ها"
+
+#~ msgid "Use `|` as delimiter to separate tag terms"
+#~ msgstr "برای جدا سازی برچسب ها از `|` استفاده کنید"
+
+#~ msgid "Extra fields"
+#~ msgstr "فیلد های اضافی"
+
+#~ msgid "Price"
+#~ msgstr "قیمت"
+
+#~ msgid "Online"
+#~ msgstr "آنلاین"
+
+#~ msgid "Offline"
+#~ msgstr "آفلاین"
+
+#~ msgid "Type"
+#~ msgstr "نوع"
+
+#~ msgid "Text : type text content"
+#~ msgstr "متن : نوشتن محتوای متنی"
+
+#~ msgid "Link : add url for click"
+#~ msgstr "لینک : اضافه کردن لینک برای کلیک"
+
+#~ msgid "Video : add flv or mp4 url for play on video player"
+#~ msgstr "ویدیو : درج لینک flv یا mp4 برای نمایش در پخش کننده ویدیو"
+
+#~ msgid "Audio : add mp3 url for play on audio player"
+#~ msgstr "صدا : درج لینک mp3 برای پخش در پخش کننده صوتی"
+
+#~ msgid "File : add file link for download"
+#~ msgstr "فایل : درج لینک فایل برای دانلود"
+
+#~ msgid "Currency : add view price for anything"
+#~ msgstr "قیمت : درج قیمت برای نمایش"
+
+#~ msgid "Date : add date for view"
+#~ msgstr "تاریخ : درج تاریخ برای نمایش"
+
+#~ msgid "Number : add number"
+#~ msgstr "عدد : درج عدد"
+
+#~ msgid "Select : add select box for choose"
+#~ msgstr "انتخاب : درج باکس انتخاب"
+
+#~ msgid "Value"
+#~ msgstr "مقدار"
+
+#~ msgid "Search"
+#~ msgstr "جستجو"
+
+#~ msgid "Home Page"
+#~ msgstr "صفحه اول"
+
+#~ msgid "All Category"
+#~ msgstr "همه شاخه ها"
+
+#~ msgid "Item"
+#~ msgstr "مورد"
+
+#~ msgid "Select item for add to Special"
+#~ msgstr "یک مورد را برای درج در ویژه ها انتخاب کنید"
+
+#~ msgid "Publish date"
+#~ msgstr "زمان انتشار"
+
+#~ msgid "Expire date"
+#~ msgstr "زمان انقضا"
+
+#~ msgid "Title search type"
+#~ msgstr "نوع جستجوی عنوان"
+
+#~ msgid "Included"
+#~ msgstr "شامل"
+
+#~ msgid "Start with"
+#~ msgstr "شروع با"
+
+#~ msgid "End with"
+#~ msgstr "پایان با"
+
+#~ msgid "According"
+#~ msgstr "مطابق"
+
+#~ msgid "Service"
+#~ msgstr "خدمات"
+
+#~ msgid "Section"
+#~ msgstr "بخش"
+
+#~ msgid "All"
+#~ msgstr "همه"
+
+#~ msgid "Extra"
+#~ msgstr "اضافی"
+
+#~ msgid "Location"
+#~ msgstr "مکان"
+
+#~ msgid "Review"
+#~ msgstr "بررسی"
+
+#~ msgid "Special"
+#~ msgstr "ویژه"
+
+#~ msgid "Attach"
+#~ msgstr "پیوست"
+
+#~ msgid "Service category"
+#~ msgstr "شاخه خدمات"
+
+#~ msgid "Score"
+#~ msgstr "امتیاز"
+
+#~ msgid "Orders"
+#~ msgstr "سفارشات"
+
+#~ msgid "User"
+#~ msgstr "کاربر"
+
+#~ msgid "Filter"
+#~ msgstr "فیلتر"
+
+#~ msgid "Parent Category"
+#~ msgstr "شاخه والد"
+
+#~ msgid "Price options"
+#~ msgstr "گزینه های قیمت"
+
+#~ msgid "Stock"
+#~ msgstr "موجودی"
+
+#~ msgid "Period"
+#~ msgstr "دوره زمانی"
+
+#~ msgid "One Month"
+#~ msgstr "یک ماه"
+
+#~ msgid "Three months"
+#~ msgstr "سه ماه"
+
+#~ msgid "Six Months"
+#~ msgstr "شش ماه"
+
+#~ msgid "Annual"
+#~ msgstr "سالیانه"
+
+#~ msgid "Features options"
+#~ msgstr "ویژگی ها"
+
+#~ msgid "This name used as feature title"
+#~ msgstr "این نام برای عنوان ویژگی استفاده می شود"
+
+#~ msgid "Use 0 or 1 for yes/no view or type value"
+#~ msgstr "از ۰ یا ۱ برای گزینه بلی / خیر استفاده کنید یا مقدار را بنویسید"
+
+#~ msgid "Item data saved successfully."
+#~ msgstr "اطلاعات با موفقیت ذخیره شد"
+
+#~ msgid "Add item"
+#~ msgstr "مورد جدید"
+
+#~ msgid "This item deleted"
+#~ msgstr "این مورد حذف شد"
+
+#~ msgid "Please select item"
+#~ msgstr "لطفا یک مورد انتخاب نمایید"
+
+#~ msgid "Error in set recommended for %s item"
+#~ msgstr "خطا در تنظیم %s به عنوان ویژه"
+
+#~ msgid "Image of %s removed"
+#~ msgstr "تصویر %s حذف شد"
+
+#~ msgid "Image not remove"
+#~ msgstr "تصویر حذف نشد"
+
+#~ msgid "You must select item"
+#~ msgstr "شما باید یک مورد انتخاب نمایید"
+
+#~ msgid "Attach files to %s"
+#~ msgstr "پیوست فایل به %s"
+
+#~ msgid "You must select file"
+#~ msgstr "باید یک فایل انتخاب کنید"
+
+#~ msgid "All changes in file saved successfully."
+#~ msgstr "همه تغییرات در فایل با موفقیت ذخیره شد"
+
+#~ msgid "Edit file"
+#~ msgstr "ویرایش فایل"
+
+#~ msgid "Your attached file remove successfully"
+#~ msgstr "فایل پیوست شده با موفقیت حذف شد"
+
+#~ msgid "Location data saved successfully."
+#~ msgstr "اطلاعات مکان با موفقیت ثبت شد"
+
+#~ msgid "Add top location as %s"
+#~ msgstr "مکان سطح اول به عنوان %s"
+
+#~ msgid "You can not add child location on %s"
+#~ msgstr "شما نمیتوانید یک مکان جدید در زیر مجموعه %s درج کنید"
+
+#~ msgid "Add child location on %s as %s"
+#~ msgstr "مکان جدید در زیر مجموعه %s به عنوان %s"
+
+#~ msgid "Edit location"
+#~ msgstr "ویرایش مکان"
+
+#~ msgid "Add score options"
+#~ msgstr "گزینه امتیاز دهی جدید"
+
+#~ msgid "Extra field data saved successfully."
+#~ msgstr "اطلاعات فیلد اضافی با موفقیت ذخیره شد"
+
+#~ msgid "Add Extra"
+#~ msgstr "فیلد اضافی جدید"
+
+#~ msgid "Selected field delete"
+#~ msgstr "فیلد انتخابی حذف شد"
+
+#~ msgid "Please select field"
+#~ msgstr "لطفا یک فیلد انتخاب کنید"
+
+#~ msgid "Category data saved successfully."
+#~ msgstr "اطلاعات شاخه با موفقیت ذخیره شد"
+
+#~ msgid "Add a category"
+#~ msgstr "شاخه جدید"
+
+#~ msgid "Please select category"
+#~ msgstr "لطفا یک شاخه انتخاب کنید"
+
+#~ msgid "Customer data saved successfully."
+#~ msgstr "اطلاعات مشتری با موفقیت ذخیره شد"
+
+#~ msgid "Name "
+#~ msgstr "نام"
+
+#~ msgid "Value "
+#~ msgstr "مقدار"
+
+#~ msgid "Package data saved successfully."
+#~ msgstr "اطلاعات بسته با موفقیت ثبت شد"
+
+#~ msgid "Add package"
+#~ msgstr "بسته جدید"
+
+#~ msgid "Please select package"
+#~ msgstr "لطفا یک بسته انتخاب کنید"
+
+#~ msgid "Special data saved successfully."
+#~ msgstr "اطلاعات ویژه با موفقیت ذخیره شد"
+
+#~ msgid "Add Special"
+#~ msgstr "ویژه جدید"
+
+#~ msgid "Selected special delete"
+#~ msgstr "ویژه انتخابی حذف شد"
+
+#~ msgid "Please select special"
+#~ msgstr "لطفا یک ویژه انتخاب کنید"
+
+#~ msgid "List of all reviews from %s"
+#~ msgstr "فهرست تمام بررسی ها توسط %s"
+
+#~ msgid "List of all reviews"
+#~ msgstr "فهرست تمام بررسی ها"
+
+#~ msgid "Review not find"
+#~ msgstr "بررسی یافت نشد"
+
+#~ msgid "Review data saved successfully."
+#~ msgstr "اطلاعات بررسی با موفقیت ذخیره شد"
+
+#~ msgid "Service data saved successfully."
+#~ msgstr "اطلاعات سرویس با موفقیت ذخیره شد"
+
+#~ msgid "Add a service to %s"
+#~ msgstr "اظافه کردن سرویس به %s"
+
+#~ msgid "View filtered logs"
+#~ msgstr "نمایش گزارش فیلتر شده"
+
+#~ msgid "Not valid"
+#~ msgstr "صحیح نیست"
+
+#~ msgid "Not set"
+#~ msgstr "تنظیم نشده"
+
+#~ msgid "Special items"
+#~ msgstr "موارد ویژه"
+
+#~ msgid "New items"
+#~ msgstr "موارد جدید"
+
+#~ msgid "The category not found."
+#~ msgstr "شاخه یافت نشد"
+
+#~ msgid "New items on %s"
+#~ msgstr "موارد جدید در %s"
+
+#~ msgid "Category list"
+#~ msgstr "فهرست شاخه ها"
+
+#~ msgid "Tag module not installed."
+#~ msgstr "ماژول برچسب نصب نشده است"
+
+#~ msgid "The tag not set."
+#~ msgstr "برچسب تنظیم نشده است"
+
+#~ msgid "The tag not found."
+#~ msgstr "برچسب یافت نشد"
+
+#~ msgid "All items by %s tag"
+#~ msgstr "تمام موارد با برچسب %s"
+
+#~ msgid "List of all used tags on guide"
+#~ msgstr "فهرست تمام برچسب های استفاده شده"
+
+#~ msgid "Your search successfully. Go to result page"
+#~ msgstr "جستجوی شما موفقیت آمیز بود . به صفحه نتایج جستجو منتقل می شوید"
+
+#~ msgid "Search again"
+#~ msgstr "جستجوی مجدد"
+
+#~ msgid "Your search session is empty, please search again"
+#~ msgstr "نشست جستجوی شما باطل شده است. لطفا دوباره جستجو کنید"
+
+#~ msgid "Search result of %s"
+#~ msgstr "نتایج جستجوی %s"
+
+#~ msgid "Search result"
+#~ msgstr "نتایج جستجو"
+
+#~ msgid "You registered on system successfully."
+#~ msgstr "اطلاعات شما با موفقیت در سیستم ثبت شد"
+
+#~ msgid "You customery informations update successfully."
+#~ msgstr "اطلاعات مشتری شما با موفقیت به روز شد"
+
+#~ msgid "This is not your item"
+#~ msgstr "این مورد مربوط به شما نیست"
+
+#~ msgid "Select package"
+#~ msgstr "انتخاب بسته"
+
+#~ msgid "Remove image item in process"
+#~ msgstr "حذف تصویر در حال اجرا است"
+
+#~ msgid "Select element"
+#~ msgstr "لطفا انتخاب نمایید"
+
+#~ msgid "List of extra fields"
+#~ msgstr "فهرست فیلد های اضافی"
+
+#~ msgid "Edit"
+#~ msgstr "ویرایش"
+
+#~ msgid "List of all locations"
+#~ msgstr "فهرست تمام مکان ها"
+
+#~ msgid "Add child location"
+#~ msgstr "مکان زیر مجموعه جدید"
+
+#~ msgid "Add top location"
+#~ msgstr "مکان جدید"
+
+#~ msgid "Add Category"
+#~ msgstr "شاخه جدید"
+
+#~ msgid "List of Categores"
+#~ msgstr "فهرست شاخه ها"
+
+#~ msgid "This review added by %s"
+#~ msgstr "بررسی توسط %s درج شده"
+
+#~ msgid "Back"
+#~ msgstr "برگشت"
+
+#~ msgid "Finish"
+#~ msgstr "پایان"
+
+#~ msgid "PerView"
+#~ msgstr "پیش نمایش"
+
+#~ msgid "Create"
+#~ msgstr "ایجاد"
+
+#~ msgid "Hits"
+#~ msgstr "نمایش"
+
+#~ msgid "Size"
+#~ msgstr "حجم"
+
+#~ msgid "Close"
+#~ msgstr "بستن"
+
+#~ msgid "List of item"
+#~ msgstr "فهرست موارد"
+
+#~ msgid "Trash"
+#~ msgstr "سطل آشغال"
+
+#~ msgid "Recommended in process"
+#~ msgstr "در حال اجرا"
+
+#~ msgid "List of specials"
+#~ msgstr "فهرست ویژه ها"
+
+#~ msgid "Publish"
+#~ msgstr "انتشار"
+
+#~ msgid "Expire"
+#~ msgstr "انقضا"
+
+#~ msgid "List score options"
+#~ msgstr "فهرست گزینه های امتیاز دهی"
+
+#~ msgid "Add Service"
+#~ msgstr "سرویس جدید"
+
+#~ msgid "List of all service from %s"
+#~ msgstr "فهرست تمام سرویس های مربوط به %s"
+
+#~ msgid "List of all servies from %s category"
+#~ msgstr "فهرست تمام سرویس های مربوط به %s"
+
+#~ msgid "List of attached files"
+#~ msgstr "فهرست فایل های پیوست شده"
+
+#~ msgid "Get"
+#~ msgstr "دریافت"
+
+#~ msgid "Edit from item"
+#~ msgstr "فرم ویرایش"
+
+#~ msgid "Error"
+#~ msgstr "خطا"
+
+#~ msgid "No file upload yet"
+#~ msgstr "هیچ فایلی بارگذاری نشده است"
+
+#~ msgid "List packages"
+#~ msgstr "فهرست بسته ها"
+
+#~ msgid "Add Service Category"
+#~ msgstr "شاخه خدمات جدید"
+
+#~ msgid "List of Service Categores"
+#~ msgstr "فهرست شاخه های خدمات"
+
+#~ msgid "Remove image category in process"
+#~ msgstr "حذف تصویر شاخه در حال اجرا است"
+
+#~ msgid "By"
+#~ msgstr "توسط"
+
+#~ msgid "On"
+#~ msgstr "در"
+
+#~ msgid "Active"
+#~ msgstr "فعال"
+
+#~ msgid "Inactive"
+#~ msgstr "غیر فعال"
+
+#~ msgid "Preview"
+#~ msgstr "پیش نمایش"
+
+#~ msgid "No review send yet by users for %s"
+#~ msgstr "هیچ بررسی برای %s توسط کاربران ارسال نشده است"
+
+#~ msgid "No review send yet by users"
+#~ msgstr "هیچ بررسی توسط کاربران ارسال نشده است"
+
+#~ msgid "Add Customer"
+#~ msgstr "مشتری جدید"
+
+#~ msgid "List of customers"
+#~ msgstr "فهرست مشتریان"
+
+#~ msgid "Name"
+#~ msgstr "نام"
+
+#~ msgid "Operation"
+#~ msgstr "عملکرد"
+
+#~ msgid "List of user logs"
+#~ msgstr "فهرست گزارش فعالیت مدیران"
+
+#~ msgid "Ip"
+#~ msgstr "آی پی"
+
+#~ msgid "Time"
+#~ msgstr "زمان"
+
+#~ msgid "Remove image service in process"
+#~ msgstr "حذف تصویر سرویس در حال اجرا است"
+
+#~ msgid "Get it"
+#~ msgstr "دریافت"
+
+#~ msgid "File title"
+#~ msgstr "عنوان فایل"
+
+#~ msgid "Item title"
+#~ msgstr "عنوان مورد"
+
+#~ msgid "Attached archives"
+#~ msgstr "آرشیو های پیوست شده"
+
+#~ msgid "Attached docs"
+#~ msgstr "پرونده های پیوست شده"
+
+#~ msgid "Attached pdfs"
+#~ msgstr "پی دی اف های پیوست شده"
+
+#~ msgid "Attached files"
+#~ msgstr "فایل های پیوست شده"
+
+#~ msgid "Date"
+#~ msgstr "تاریخ انتشار"
+
+#~ msgid "Viewed"
+#~ msgstr "نمایش"
+
+#~ msgid "Times"
+#~ msgstr "بار"
+
+#~ msgid "Map"
+#~ msgstr "نقشه"
+
+#~ msgid "Services"
+#~ msgstr "خدمات"
+
+#~ msgid "Attachs"
+#~ msgstr "پیوست"
+
+#~ msgid "Reviews"
+#~ msgstr "بررسی"
+
+#~ msgid "Not yet"
+#~ msgstr "تنظیم نشده"
+
+#~ msgid "List of items"
+#~ msgstr "فهرست موارد"
+
+#~ msgid "New item"
+#~ msgstr "مورد جدید"
+
+#~ msgid "Payment history"
+#~ msgstr "سابقه پرداخت ها"
+
+#~ msgid "Edit information"
+#~ msgstr "ویرایش اطلاعات"
+
+#~ msgid "Cancel"
+#~ msgstr "لغو"
+
+#~ msgid "List of all servies from <strong>%s</strong> category"
+#~ msgstr "فهرست تمام سرویس های مربوط به <strong>%s</strong>"
+
+#~ msgid "Tag list"
+#~ msgstr "فهرست برچسب ها"
+
+#~ msgid "Start"
+#~ msgstr "آغاز"
+
+#~ msgid "End"
+#~ msgstr "پایان"
+
+#~ msgid "Out of stock"
+#~ msgstr "نا موجود"
+
+#~ msgid "Parent"
+#~ msgstr "والد"
+
+#~ msgid "Top category"
+#~ msgstr "شاخه اصلی"
+
+#~ msgid "Manage location category"
+#~ msgstr "مدیریت شاخه بندی مکان ها"
+
+#~ msgid "Location list"
+#~ msgstr "فهرست مکان ها"
+
+#~ msgid "Add category"
+#~ msgstr "شاخه جدید"
+
+#~ msgid "Manage category"
+#~ msgstr "مدیریت شاخه ها"
+
+#~ msgid "Locations"
+#~ msgstr "مکان ها"
+
+#~ msgid ""
+#~ "You can add new location category or select catelory for see list of all "
+#~ "locations on that"
+#~ msgstr ""
+#~ "شما میتوانید یک مکان جدید به سیستم اضافه کنید یا شاخه بنید را ویرایش "
+#~ "نمایید."
+
+#~ msgid "Add location category"
+#~ msgstr "شاخه مکان جدید"
+
+#~ msgid "Please select parent or category."
+#~ msgstr "لطفا یک شاخه یا والد انتخاب کنید"
+
+#~ msgid "Global public resource"
+#~ msgstr "دسترسی های عمومی"
+
+#~ msgid "Manage"
+#~ msgstr "مدیریت"
+
+#~ msgid "Logs"
+#~ msgstr "گزارش"
+
+#~ msgid "Guide"
+#~ msgstr "راهنما"
+
+#~ msgid "Introducing guides."
+#~ msgstr "ماژول راهنمای خدمات و سرویس ها"
+
+#~ msgid "Admin"
+#~ msgstr "بخش مدیر"
+
+#~ msgid "Social"
+#~ msgstr "شبکه اجتماعی"
+
+#~ msgid "File"
+#~ msgstr "فایل"
+
+#~ msgid "Vote"
+#~ msgstr "رای"
+
+#~ msgid "Favourite"
+#~ msgstr "علاقه مندی"
+
+#~ msgid "Texts"
+#~ msgstr "متن ها"
+
+#~ msgid "Perpage"
+#~ msgstr "تعداد در صفحه"
+
+#~ msgid "Show extra fields"
+#~ msgstr "نمایش اطلاعات فیلد های اضافی"
+
+#~ msgid "Show item attacehed files"
+#~ msgstr "نمایش فایل های پیوست شده"
+
+#~ msgid "Show service"
+#~ msgstr "نمایش سرویس ها"
+
+#~ msgid "Show incategory items"
+#~ msgstr "نمایش مشابه در شاخه"
+
+#~ msgid "Show user review"
+#~ msgstr "نمایش بررسی کاربران"
+
+#~ msgid "Show submit review"
+#~ msgstr "نمایش بررسی جدید"
+
+#~ msgid "Show special"
+#~ msgstr "نمایش ویژه ها"
+
+#~ msgid "Number of items on special"
+#~ msgstr "تعداد موارد در فهرست ویژه ها"
+
+#~ msgid "Show Tags"
+#~ msgstr "نمایش برچسب"
+
+#~ msgid "Image Size"
+#~ msgstr "حجم تصویر"
+
+#~ msgid "Image path"
+#~ msgstr "مسیر ذخیره تصویر"
+
+#~ msgid "Image Extension"
+#~ msgstr "پسوند های مجار برای تصویر"
+
+#~ msgid "Large Image height"
+#~ msgstr "ارتفاع تصویر بزرگ"
+
+#~ msgid "Large Image width"
+#~ msgstr "عرض تصویر بزرگ"
+
+#~ msgid "Medium Image height"
+#~ msgstr "ارتفاع تصویر متوسط"
+
+#~ msgid "Medium Image width"
+#~ msgstr "عرض تصویر متوسط"
+
+#~ msgid "Thumb Image height"
+#~ msgstr "ارتفاع تصویر بندانگشتی"
+
+#~ msgid "Thumb Image width"
+#~ msgstr "عرض تصویر بندانگشتی"
+
+#~ msgid "Use lightbox"
+#~ msgstr "استفاده از لایت باکس"
+
+#~ msgid "Add Watermark"
+#~ msgstr "اضافه کردن واترمارک به تصویر"
+
+#~ msgid "Watermark Image"
+#~ msgstr "تصویر واترمارک"
+
+#~ msgid "Watermark Positio"
+#~ msgstr "موقعیت واترمارک"
+
+#~ msgid "Top Left"
+#~ msgstr "بالا چپ"
+
+#~ msgid "Top Right"
+#~ msgstr "بالا راست"
+
+#~ msgid "Bottom Left"
+#~ msgstr "پایین چپ"
+
+#~ msgid "Bottom Right"
+#~ msgstr "پایین راست"
+
+#~ msgid "Show Google Plus"
+#~ msgstr "نمایش گوگل پلاس"
+
+#~ msgid "Show facebook"
+#~ msgstr "نمایش فیسبوک"
+
+#~ msgid "Show Twitter"
+#~ msgstr "نمایش تویتر"
+
+#~ msgid "File Size"
+#~ msgstr "حجم فایل"
+
+#~ msgid "File path"
+#~ msgstr "مسیر ذخیره فایل"
+
+#~ msgid "File Extension"
+#~ msgstr "پسوند های مجاز برای فایل"
+
+#~ msgid "Use vote system"
+#~ msgstr "استفاده از سیستم رای"
+
+#~ msgid "Use favourite system"
+#~ msgstr "استفاده از سیستم مورد علاقه"
+
+#~ msgid "Show search type"
+#~ msgstr "نمایش نوع جستجوی عنوان"
+
+#~ msgid "Show search category"
+#~ msgstr "نمایش شاخه در جستجو"
+
+#~ msgid "Module main title"
+#~ msgstr "عنوان اصلی ماژول"
+
+#~ msgid "Title for main page and all non-title pages"
+#~ msgstr "عنوان برای صفحه اصلی و تمام صفحات بدون عنوان"
+
+#~ msgid "Module main description"
+#~ msgstr "توضیحات اصلی ماژول"
+
+#~ msgid "Module main keywords"
+#~ msgstr "کلمات کلیدی اصلی ماژول"
+
+#~ msgid "Module search page title"
+#~ msgstr "عنوان صفحه جستجو ماژول"
+
+#~ msgid "Module search page description"
+#~ msgstr "توضیحات صفحه جستجو ماژول"
+
+#~ msgid "Module search page keywords"
+#~ msgstr "کلمات کلیدی صفحه جستجو ماژول"
+
+#~ msgid "Add location to top catgory"
+#~ msgstr "مکان جدید برای شاخه اصلی"

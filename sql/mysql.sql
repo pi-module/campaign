@@ -1,0 +1,23 @@
+CREATE TABLE `{people}` (
+    `id` int(10) unsigned NOT NULL auto_increment,
+    `uid` int(10) unsigned NOT NULL,
+    `first_name` varchar (255) NOT NULL,
+    `last_name` varchar (255) NOT NULL,
+    `email` varchar(64) NOT NULL,
+    `mobile` varchar(16) NOT NULL,
+    `website` varchar(64) NOT NULL,
+    `image` varchar(255) NOT NULL,
+    `path` varchar(16) NOT NULL,
+    `code` varchar(32) NOT NULL,
+    `status` tinyint(1) unsigned NOT NULL,
+    `hits` int(10) unsigned NOT NULL,
+    `time_create` int(10) unsigned NOT NULL,
+    `time_update` int(10) unsigned NOT NULL,
+    PRIMARY KEY (`id`),
+    KEY `email` (`email`),
+    KEY `first_name` (`first_name`),
+    KEY `last_name` (`last_name`),
+    KEY `status` (`status`),
+    KEY `time_create` (`time_create`),
+    KEY `order` (`time_create`, `id`)
+);

@@ -1,0 +1,12 @@
+[comment]Confirm HTML template[/comment]
+
+[format]html[/format]
+
+[subject]تایید اطلاعات ثبت نام[/subject]
+
+[body]
+<div id="print" style="margin: 5px; direction: rtl !important;">
+    <p>%first_name% %last_name% عزیز ، ضمن تشکر از ثبت نام شما ، لینک تایید پروفایل شما به شرح زیر است ، لطفا بر روی لینک زیر کلیک نمایید</p>
+    <p><a href="%url%">%url%</a></p>
+</div>
+[/body]

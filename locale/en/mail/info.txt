@@ -1,0 +1,12 @@
+[comment]Information HTML template[/comment]
+
+[format]html[/format]
+
+[subject]اطلاعات ثبت نام شما[/subject]
+
+[body]
+<div id="print" style="margin: 5px; direction: rtl !important;">
+    <p>%first_name% %last_name% عزیز ،اطلاعات پروفایل شما توسط مدیر سایت تایید شده است. برای دسترسی به صفحه و به اشتراک گذاری اطلاعات صفحه به لینک زیر مراجعه نمایید.</p>
+    <p><a href="%url%">%url%</a></p>
+</div>
+[/body]
