@@ -144,7 +144,7 @@ class RegisterController extends ActionController
                 $this->jump(array('', 'module' => $module, 'controller' => 'index'), __('Your code is not true.'));
         }
         // confirm
-        $this->getModel('product')->update(array('status' => 2), array('id' => $people['id']));
+        $this->getModel('people')->update(array('status' => 2), array('id' => $people['id']));
         // Go to user page
         $this->view()->setTemplate('campaign_confirm');
     }

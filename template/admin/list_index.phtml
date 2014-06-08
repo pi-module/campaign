@@ -43,7 +43,7 @@
 				<?php if($people['status'] == 1) { ?>
 				<a class="btn btn-primary" href="<?php echo $this->escape($people['peopleUrl']); ?>"><i class="fa fa-eye"></i> <?php _e('View'); ?></a>
 				<?php } ?>
-				<?php if($people['status'] == 2) { ?>
+				<?php if($people['status'] == 2 || $people['status'] == 3) { ?>
 				<button id="button-<?php echo $people['id']; ?>" type="button" class="btn btn-success" data-toggle="button" data-link="<?php echo $this->url('', array('action' => 'accept', 'id' => $people['id'], 'status' => '1')); ?>"><i class="fa fa-trash-o"></i> <?php _e('Accept'); ?></button>
 				<?php } ?>
 				<?php if($people['status'] != 4) { ?>

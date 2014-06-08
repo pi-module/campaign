@@ -16,13 +16,13 @@ use Pi;
 use Pi\Application\Api\AbstractApi;
 
 /*
- * Pi::api('mail', 'campaign')->sendInfo($url, $last_name, $first_name, $email);
+ * Pi::api('mail', 'campaign')->sendInfo($url, $first_name, $last_name, $email);
  * Pi::api('mail', 'campaign')->sendConfirm($id, $code, $first_name, $last_name, $email);
  */
 
 class Mail extends AbstractApi
 {
-    public function sendInfo($url, $last_name, $first_name, $email)
+    public function sendInfo($url, $first_name, $last_name, $email)
     {
         // Set to
         $to = array(
@@ -50,6 +50,7 @@ class Mail extends AbstractApi
     	$url = Pi::url(Pi::service('url')->assemble('campaign', array(
             'module'        => $this->getModule(),
             'controller'    => 'register',
+            'action'        => 'confirm',
             'id'            => $id,
             'code'          => $code,
         )));

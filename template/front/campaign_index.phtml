@@ -1,14 +1,14 @@
 <?php $this->css($this->assetModule('css/front.css')); ?>
 <div class="campaign">
-	<?php foreach($list as $people) { ?>
-	<div class="col-sm-6 col-md-4">
-		<div class="thumbnail">
-			<img src="<?php echo $this->escape($people['thumbUrl']); ?>" alt="<?php echo $this->escape($people['first_name']); ?> <?php echo $this->escape($people['last_name']); ?>">
-			<div class="caption">
-				<h3><?php echo $this->escape($people['first_name']); ?> <?php echo $this->escape($people['last_name']); ?></h3>
-			</div>
-		</div>
-	</div>
-	<?php } ?>
-	<div class="paginator"><?php echo $this->paginationControl($paginator, 'Sliding', 'paginator'); ?></div>
+    <?php foreach($list as $people) { ?>
+    <div class="col-sm-3 col-md-1">
+        <div class="thumbnail">
+            <a title="<?php echo $this->escape($people['first_name']); ?> <?php echo $this->escape($people['last_name']); ?>" href="<?php echo $this->escape($people['peopleUrl']); ?>"><img src="<?php echo $this->escape($people['thumbUrl']); ?>" alt="<?php echo $this->escape($people['first_name']); ?> <?php echo $this->escape($people['last_name']); ?>"></a>
+            <!-- <div class="caption text-center">
+                <h5><a title="<?php echo $this->escape($people['first_name']); ?> <?php echo $this->escape($people['last_name']); ?>" href="<?php echo $this->escape($people['peopleUrl']); ?>"><?php echo $this->escape($people['first_name']); ?> <?php echo $this->escape($people['last_name']); ?></a></h5>
+            </div> -->
+        </div>
+    </div>
+    <?php } ?>
+    <div class="paginator"><?php echo $this->paginationControl($paginator, 'Sliding', 'paginator'); ?></div>
 </div>

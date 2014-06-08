@@ -82,26 +82,24 @@ class ListController extends ActionController
                     $url = Pi::url($this->url('campaign', array(
                         'module'        => $this->getModule(),
                         'controller'    => 'people',
+                        'action'        => 'index',
                         'id'            => $people->id,
                     )));
-                    Pi::api('mail', 'campaign')->sendInfo($url, $people->first_name, $people->last_name);
+                    Pi::api('mail', 'campaign')->sendInfo($url, $people->first_name, $people->last_name, $people->email);
                     Pi::api('sitemap', 'sitemap')->add('campaign', 'people', $people->id, $url);
                 }
                 $return['message'] = sprintf(__('%s status update successfully'), $people->id);
                 $return['ajaxstatus'] = 1;
                 $return['id'] = $people->id;
-                $return['storystatus'] = $people->status;
             } else {
                 $return['message'] = sprintf(__('Error in update %s'), $people->id);
                 $return['ajaxstatus'] = 0;
                 $return['id'] = 0;
-                $return['storystatus'] = $people->status;
             }
         } else {
             $return['message'] = __('Please select people');
             $return['ajaxstatus'] = 0;
             $return['id'] = 0;
-            $return['storystatus'] = 0;
         }
         return $return;
     }

@@ -1,1 +1,12 @@
- 
+<div class="campaign-block clearfix">
+    <?php foreach($block['resources'] as $people) { ?>
+    <div class="col-sm-3 col-md-1">
+        <div class="thumbnail">
+            <a title="<?php echo $this->escape($people['first_name']); ?> <?php echo $this->escape($people['last_name']); ?>" href="<?php echo $this->escape($people['peopleUrl']); ?>"><img src="<?php echo $this->escape($people['thumbUrl']); ?>" alt="<?php echo $this->escape($people['first_name']); ?> <?php echo $this->escape($people['last_name']); ?>"></a>
+            <!-- <div class="caption text-center">
+                <h5><a title="<?php echo $this->escape($people['first_name']); ?> <?php echo $this->escape($people['last_name']); ?>" href="<?php echo $this->escape($people['peopleUrl']); ?>"><?php echo $this->escape($people['first_name']); ?> <?php echo $this->escape($people['last_name']); ?></a></h5>
+            </div> -->
+        </div>
+    </div>
+    <?php } ?>
+</div>
